@@ -1,0 +1,399 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: #0ba39c;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: #0ba39c;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 1000px;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  font-weight: 800;
+  height: 300px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  font-weight: 900;
+  font-size: 140%;
+}
+
+.image-container img {
+  border: 2px solid rgb(92, 92, 92);
+  transition: 0.5s ease-in-out;
+  opacity: 0.8;
+}
+
+.image-container img:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+main div {
+  margin-left: 50px;
+}
+
+main div p:nth-child(1) {
+  font-size: x-large;
+  font-weight: 900;
+  background: rgb(250, 249, 248);
+  width: 450px;
+  height: 65px;
+  margin: 0 0 24px;
+  font-family: poller_oneregular;
+}
+
+main div p:nth-child(2) {
+  width: 400px;
+  height: 45px;
+}
+
+main div p:nth-child(3) {
+  width: 475px;
+  height: 45px;
+}
+
+main div p:nth-child(4) {
+  width: 350px;
+  height: 45px;
+}
+
+main p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-p {
+  background: #252525;
+  color: aliceblue;
+  margin: 12px 0;
+}
+
+.readmore-button {
+  color: aliceblue;
+  background: #0ba39c;
+  border: none;
+  width: 150px;
+  height: 65px;
+  margin: 12px 0;
+}
+
+.readmore-button:hover {
+  cursor: pointer;
+  background: #1fc3bc;
+}
+
+.below-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(41, 41, 41);
+  width: 100%;
+  height: 100px;
+}
+
+header img {
+  margin-bottom: 50px;
+}
+
+.below-footer p {
+  color: white;
+  margin-left: 800px;
+}
+
+.below-footer div ul li a {
+  background: url(../images/icons.jpg) no-repeat 0 0;
+  display: block;
+  height: 44px;
+  margin: 0;
+  padding: 0;
+  text-indent: -99999px;
+  width: 44px;
+}
+
+.below-footer div ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  display: block;
+  float: right;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  width: 256px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+}
+
+form div input {
+  text-align: center;
+  margin: 20px;
+  width: 400px;
+  height: 60px;
+  border: 2px solid rgb(46, 44, 44);
+  margin-left: 30px;
+}
+
+.main-title {
+  font-weight: 900;
+  font-size: 190%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 60px;
+  color: white;
+  background: rgb(46, 44, 44);
+  margin-bottom: 10px;
+  margin-left: 355px;
+}
+
+.form p {
+  width: 400px;
+}
+
+.gallery p {
+  width: 250px;
+}
+
+.logo {
+  margin-top: 100px;
+}
+
+textarea {
+  width: 400px;
+  height: 200px;
+  border: 2px solid rgb(46, 44, 44);
+  resize: none;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+button {
+  font-weight: 800;
+  font-size: 110%;
+  color: white;
+  border: none;
+  background: rgb(46, 44, 44);
+  width: 115px;
+  height: 70px;
+  margin-left: 260px;
+}
+
+form {
+  margin-bottom: 50px;
+}
+
+.about-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 550px;
+}
+
+.about-container {
+  text-align: center;
+}
+
+.about-title {
+  font-weight: 600;
+  font-size: 120%;
+}
+
+.about-main-title {
+  margin-left: 0;
+}
+
+.about-main img {
+  border: 2px solid rgb(46, 44, 44);
+}
+
+.about-content {
+  line-height: 1.5;
+}
+
+.blog-container {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  border: 2px solid rgb(46, 44, 44);
+  height: 295px;
+  margin-bottom: 15px;
+}
+
+.blog-square {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 550px;
+}
+
+.blog-main p {
+  width: 200px;
+}
+
+.blog-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.blog-img-container {
+  border-right: 2px solid rgb(46, 44, 44);
+  width: 375px;
+  height: 295px;
+  margin: 0px;
+}
+
+.blog-square button {
+  height: 35px;
+  width: 170px;
+  background: black;
+  font-size: 130%;
+  margin-left: 0px;
+}
+
+.blog-square button:hover {
+  color: black;
+  background: white;
+  border: 2px solid black;
+}
+
+.gallery-main-title {
+  width: 550px;
+  margin-left: 0px;
+}
+
+.gallery-post-img {
+  font-size: 175%;
+  width: 310px;
+  height: 40px;
+  margin-left: 0px;
+}
+
+.gallery-content {
+  text-align: center;
+  line-height: 1.75;
+}
+
+.blog-title {
+  font-size: 185%;
+  font-weight: 1000;
+}
+
+.blog-content {
+  line-height: 1.85;
+  text-align: center;
+  font-weight: 50;
+}
+
+.fab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 175%;
+  border: 2px solid white;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+}
+
+.fab:hover {
+  color: rgb(46, 44, 44);
+  background: white;
+  cursor: pointer;
+}
+
+.social-container {
+  margin-right: 800px;
+}
+.social-container a {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.form .main-title {
+  margin-left: 15px;
+}

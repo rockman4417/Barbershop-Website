@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (min-device-width: 600px) and (max-device-width: 700px) "
+      href="mobile.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <header>
+        <a href="index.html" class="logo" data-unsp-sanitized="clean">
+          <img src="logo.jpg" />
+        </a>
+
+        <div class="topnav">
+          <a class="active" href="index.html">HOME</a>
+          <a href="About.html">ABOUT</a>
+          <a href="Gallery.html">GALLERY</a>
+          <a href="Blog.html">BLOG</a>
+          <a href="Contact.html">CONTACT</a>
+        </div>
+      </header>
+      <div class="form">
+        <p class="main-title">LETS KEEP IN TOUCH</p>
+        <form action="results.html" method="GET" enctype="multipart/form-data">
+          <div>
+            <input type="text" name="name" id="name" value="NAME" />
+          </div>
+          <div>
+            <input type="address" name="address" id="address" value="ADDRESS" />
+          </div>
+          <div>
+            <input type="email" name="email" id="email" value="EMAIL" />
+          </div>
+          <div>
+            <input type="tel" name="phone" id="phone" value="PHONE" />
+          </div>
+
+          <textarea
+            id="message"
+            name="message"
+            minlength="20"
+            maxlength="500"
+          ></textarea>
+
+          <div><button type="send">SEND</button></div>
+        </form>
+      </div>
+      <div class="below-footer">
+        <p>© 2023 by Mustacchio. All rights reserved.</p>
+
+        <div class="social-container">
+          <a href="http://freewebsitetemplates.com/go/twitter/"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="http://freewebsitetemplates.com/go/facebook/"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="http://freewebsitetemplates.com/go/googleplus/"
+            ><i class="fab fa-google-plus"></i
+          ></a>
+          <a href="http://freewebsitetemplates.com/go/googleplus/"
+            ><i class="fab fa-pinterest"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
