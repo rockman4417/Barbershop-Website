@@ -151,6 +151,7 @@ main p {
 
 .below-footer {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   background: rgb(41, 41, 41);
@@ -386,7 +387,9 @@ form {
 }
 
 .social-container {
-  margin-right: 800px;
+  display: flex;
+  margin-right: 500px;
+  margin-left: 200px;
 }
 .social-container a {
   margin-left: 10px;
